@@ -7,8 +7,8 @@
       <v-col cols="12" class="text-center">
         <v-slider v-model="factor" max="10000" min="2"></v-slider>
       </v-col>
-      <v-col cols="12" class="text-center">
-        <v-text-field v-model="factor" type="number"></v-text-field>
+      <v-col cols="2" class="text-center">
+        <v-text-field v-model="factor" type="number" outlined></v-text-field>
       </v-col>
       <v-col cols="12" class="text-center">
         <h1>Density: {{ height }}</h1>
